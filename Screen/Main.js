@@ -31,6 +31,9 @@ const Main = () => {
       <TouchableOpacity style={MyStyle.ButtonBg} onPress={() => navigation.push('Project_8')}>
           <Text style={MyStyle.TextStyle}>Bài 8</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={MyStyle.ButtonBg} onPress={() => navigation.push('Calculator')}>
+          <Text style={MyStyle.TextStyle}>Calculator</Text>
+      </TouchableOpacity>
     </View>
   )
 }

@@ -11,6 +11,7 @@ import Project_5 from './Screen/Project_5';
 import Project_6 from './Screen/Project_6';
 import Project_7 from './Screen/Project_7';
 import Project_8 from './Screen/Project_8';
+import Calculator from './Screen/Calculator';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Stack.Screen name="Project_6" component={Project_6} options={{ title: 'Bài 6' }}/>
         <Stack.Screen name="Project_7" component={Project_7} options={{ title: 'Bài 7' }}/>
         <Stack.Screen name="Project_8" component={Project_8} options={{ title: 'Bài 8' }}/>
+        <Stack.Screen name="Calculator" component={Calculator} options={{ title: 'Calculator' }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
